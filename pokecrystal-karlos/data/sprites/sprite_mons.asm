@@ -1,0 +1,39 @@
+SpriteMons:
+; entries correspond to SPRITE_* constants past SPRITE_POKEMON
+	table_width 1, SpriteMons
+	db UNOWN
+	db UNOWN
+	db UNOWN
+	db UNOWN
+	db UNOWN
+	db UNOWN
+	db UNOWN
+	db UNOWN
+	db UNOWN
+	db UNOWN
+	db UNOWN
+	db UNOWN
+	db UNOWN
+	db UNOWN
+	db UNOWN
+	db GEODUDE
+	db GROWLITHE
+	db GENGAR
+	db ZUBAT
+	db MAGIKARP
+	db SQUIRTLE
+	db BUTTERFREE
+	db PIKACHU
+	db CHARMANDER
+	db STARMIE
+	db BULBASAUR
+	db GROWLITHE
+	db EKANS
+	db TENTACOOL
+	db MACHOP
+	db LAPRAS
+	db RHYDON
+	db GROWLITHE
+	db SNORLAX
+	db GYARADOS
+	assert_table_length NUM_POKEMON_SPRITES
