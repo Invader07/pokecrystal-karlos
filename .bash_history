@@ -1,47 +1,3 @@
-cd pokecrystal
-make
-make
-make
-make
-make
-make
-git --version
-git congig --global user.name
-git config --global user.name
-git config --global user.name "Dakorias"
-git config --global user.email "benjaminkdeloach@gmail.com"
-cd pokecrystal
-git init
-cd pokecrystal
-cd pokecrystal-karlos
-git init
-ls
-git status
-git clone https://github.com/Dakorias/pokecrystal-karlos.git
-cd benja
-cd pokecrystal-karlos
-cd pokecrystal-karlo
-https://github.com/Dakorias/pokecrystal-karlos.git
-cd pokecrystal-karlo
-git clone https://github.com/Dakorias/pokecrystal-karlos.git
-remote
-cd pokecrystal-karlos
-cd pokecrystal-karlos
-git remote add origin https://github.com/Dakorias/pokecrystal-karlos.git
-git push
-git push
-git push
-git init
-git push
-git status
-git commit
-git commit -a
-ls
-git init
-git status
-git log
-git remote
-cd pokecrystal-karlos
 git log
 git init
 git remote
@@ -498,3 +454,47 @@ git commit -a -m "Home Change"
 git push
 git pull
 git pull
+cd pokecrystal-karlos
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+git add -A
+git commit -a -m "60 FPS, and Evening Time added"
+git push
+git push origin
+git remote -V
+git remote -b
+git remote -v

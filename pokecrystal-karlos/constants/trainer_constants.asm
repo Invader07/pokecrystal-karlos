@@ -119,8 +119,8 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const JOEY2
 	const JOEY3
 	const WARREN
-	const JIMMY
-	const OWEN
+	const JAMES
+	const KEVIN
 	const JASON
 	const JOEY4
 	const JOEY5
@@ -173,7 +173,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const VANCE3
 
 	trainerclass LASS ; 19
-	const CARRIE
+	const ALEXIS
 	const BRIDGET
 	const ALICE
 	const KRISE
@@ -211,13 +211,13 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const ANDY ; unused
 	const TYLER ; unused
 	const SEAN
-	const KEVIN
+	const KEVIT
 	const STEVE ; unused
 	const ALLEN
 	const DARIN
 
 	trainerclass COOLTRAINERF ; 1c
-	const GWEN
+	const STACY
 	const LOIS
 	const FRAN
 	const LOLA
@@ -394,7 +394,6 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const RICK ; unused
 	const CAMERON
 	const SETH
-	const JAMES ; unused
 	const LEWIS ; unused
 	const PARKER
 

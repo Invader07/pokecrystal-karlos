@@ -337,7 +337,6 @@ ErikaGroup:
 
 YoungsterGroup:
 
-
 	; YOUNGSTER (1)
 	db "TEST1@", TRAINERTYPE_MOVES
 	db  15, SHINX,		 LEER, THUNDERSHOCK, SCRATCH, BITE
@@ -389,14 +388,14 @@ YoungsterGroup:
 	db -1 ; end
 
 	; YOUNGSTER (6)
-	db "IAN@", TRAINERTYPE_NORMAL
-	db 10, MANKEY
-	db 12, PIDGEY
+	db "KEVIN@", TRAINERTYPE_NORMAL
+	db 3, PIDGEY
+	db 4, SENTRET
 	db -1 ; end
 
 	; YOUNGSTER (7)
-	db "JOEY@", TRAINERTYPE_NORMAL
-	db 15, PIDGEY
+	db "JAMES@", TRAINERTYPE_NORMAL
+	db 6, FLETCHLING
 	db -1 ; end
 
 	; YOUNGSTER (8)
@@ -710,8 +709,11 @@ BirdKeeperGroup:
 
 LassGroup:
 	; LASS (1)
-	db "CARRIE@", TRAINERTYPE_MOVES
-	db 18, PIDGEY,   SCARY_FACE, CHARM, BITE, LICK
+	db "ALEXIS@", TRAINERTYPE_NORMAL
+	db 3, PIDGEY
+	db 3, KRABBY
+	db 3, SENTRET
+	db 3, FLETCHLING
 	db -1 ; end
 
 	; LASS (2)
@@ -955,11 +957,9 @@ CooltrainerMGroup:
 
 CooltrainerFGroup:
 	; COOLTRAINERF (1)
-	db "GWEN@", TRAINERTYPE_NORMAL
-	db 26, EEVEE
-	db 22, FLAREON
-	db 22, VAPOREON
-	db 22, JOLTEON
+	db "STACY@", TRAINERTYPE_NORMAL
+	db 6, SHINX
+	db 6, MURKROW
 	db -1 ; end
 
 	; COOLTRAINERF (2)
