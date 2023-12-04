@@ -23,7 +23,7 @@ Pokered_MonIndices:
 	db MEW
 	db GYARADOS
 	db WOOPER
-	db TENTACOOL
+	db PIDGEY
 	db GASTLY
 	db SCYTHER
 	db STARYU
@@ -57,7 +57,7 @@ Pokered_MonIndices:
 	db KOFFING
 	db SNEASEL ; MISSINGNO.
 	db MANKEY
-	db SEEL
+	db PIDGEY
 	db WOOPER
 	db WOOPER
 	db EKANS ; MISSINGNO.
@@ -119,7 +119,7 @@ Pokered_MonIndices:
 	db PRIMEAPE
 	db WOOPER
 	db VENOMOTH
-	db DEWGONG
+	db PIDGEY
 	db KINGDRA ; MISSINGNO.
 	db WOOPER ; MISSINGNO.
 	db CATERPIE
@@ -154,7 +154,7 @@ Pokered_MonIndices:
 	db STARMIE
 	db BULBASAUR
 	db VENUSAUR
-	db TENTACRUEL
+	db PIDGEY
 	db WOOPER ; MISSINGNO.
 	db WOOPER
 	db WOOPER
@@ -162,8 +162,8 @@ Pokered_MonIndices:
 	db WOOPER ; MISSINGNO.
 	db WOOPER ; MISSINGNO.
 	db WOOPER ; MISSINGNO.
-	db PONYTA
-	db RAPIDASH
+	db PIDGEY
+	db PIDGEY
 	db WOOPER
 	db WOOPER
 	db NIDORINO
@@ -234,7 +234,7 @@ Pokered_MonIndices:
 	db WOOPER
 	db YANMA
 	db WOOPER
-	db QUAGSIRE
+	db PIDGEY
 	db ESPEON
 	db UMBREON
 	db MURKROW
@@ -253,5 +253,6 @@ Pokered_MonIndices:
 	db WOOPER
 	db WOBBUFFET
 	db WOBBUFFET
+	db WOOPER
 	db WOOPER
 	assert_table_length NUM_POKEMON + 1

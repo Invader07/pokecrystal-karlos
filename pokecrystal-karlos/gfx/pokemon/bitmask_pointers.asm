@@ -40,7 +40,7 @@ BitmasksPointers:
 	dw FlaaffyBitmasks
 	dw AmpharosBitmasks
 	dw WooperBitmasks
-	dw QuagsireBitmasks
+	dw ClodsireBitmasks
 	dw GastlyBitmasks
 	dw HaunterBitmasks
 	dw GengarBitmasks
@@ -118,8 +118,8 @@ BitmasksPointers:
 	dw GirafarigBitmasks
 	dw FarigirafBitmasks
 	dw SmeargleBitmasks
-	dw TentacoolBitmasks
-	dw TentacruelBitmasks
+	dw SkrelpBitmasks
+	dw DragalgeBitmasks
 	dw KrabbyBitmasks
 	dw KinglerBitmasks
 	dw StaryuBitmasks
@@ -129,8 +129,8 @@ BitmasksPointers:
 	dw MiloticBitmasks
 	dw ChinchouBitmasks
 	dw LanturnBitmasks
-	dw SeelBitmasks
-	dw DewgongBitmasks
+	dw TurtonatorBitmasks
+	dw DuraludonBitmasks
 	dw ConttoneeBitmasks
 	dw WhimsicottBitmasks
 	dw EeveeBitmasks
@@ -157,8 +157,9 @@ BitmasksPointers:
 	dw SkuntankBitmasks
 	dw CubchooBitmasks
 	dw BearticBitmasks
-	dw PonytaBitmasks
-	dw RapidashBitmasks
+	dw LotadBitmasks
+	dw LombreBitmasks
+	dw LudicoloBitmasks
 	dw DuskullBitmasks
 	dw DusclopsBitmasks
 	dw DusknoirBitmasks

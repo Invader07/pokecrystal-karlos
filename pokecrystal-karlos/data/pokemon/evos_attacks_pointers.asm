@@ -41,7 +41,7 @@ EvosAttacksPointers::
 	dw FlaaffyEvosAttacks
 	dw AmpharosEvosAttacks
 	dw WooperEvosAttacks
-	dw QuagsireEvosAttacks
+	dw ClodsireEvosAttacks
 	dw GastlyEvosAttacks
 	dw HaunterEvosAttacks
 	dw GengarEvosAttacks
@@ -119,8 +119,8 @@ EvosAttacksPointers::
 	dw GirafarigEvosAttacks
 	dw FarigirafEvosAttacks
 	dw SmeargleEvosAttacks
-	dw TentacoolEvosAttacks
-	dw TentacruelEvosAttacks
+	dw SkrelpEvosAttacks
+	dw DragalgeEvosAttacks
 	dw KrabbyEvosAttacks
 	dw KinglerEvosAttacks
 	dw StaryuEvosAttacks
@@ -130,8 +130,8 @@ EvosAttacksPointers::
 	dw MiloticEvosAttacks
 	dw ChinchouEvosAttacks
 	dw LanturnEvosAttacks
-	dw SeelEvosAttacks
-	dw DewgongEvosAttacks
+	dw TurtonatorEvosAttacks
+	dw DuraludonEvosAttacks
 	dw CottoneeEvosAttacks
 	dw WhimsicottEvosAttacks
 	dw EeveeEvosAttacks
@@ -158,12 +158,12 @@ EvosAttacksPointers::
 	dw SkuntankEvosAttacks
 	dw CubchooEvosAttacks
 	dw BearticEvosAttacks
-	dw PonytaEvosAttacks
-	dw RapidashEvosAttacks
+	dw LotadEvosAttacks
+	dw LombreEvosAttacks
+	dw LudicoloEvosAttacks
 	dw DuskullEvosAttacks
 	dw DusclopsEvosAttacks
 	dw DusknoirEvosAttacks
-	dw KangaskhanEvosAttacks
 	dw RhyhornEvosAttacks
 	dw RhydonEvosAttacks
 	dw RhyperiorEvosAttacks
@@ -198,6 +198,7 @@ EvosAttacksPointers::
 	dw FlygonEvosAttacks
 	dw ElecrikeEvosAttacks
 	dw ManectricEvosAttacks
+	dw MaractusEvosAttacks
 	dw AbsolEvosAttacks
 	dw LarvestaEvosAttacks
 	dw VolcoronaEvosAttacks

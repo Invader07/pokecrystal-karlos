@@ -41,7 +41,7 @@ PokedexDataPointerTable:
 	dw FlaaffyPokedexEntry
 	dw AmpharosPokedexEntry
 	dw WooperPokedexEntry
-	dw QuagsirePokedexEntry
+	dw ClodsirePokedexEntry
 	dw GastlyPokedexEntry
 	dw HaunterPokedexEntry
 	dw GengarPokedexEntry
@@ -119,8 +119,8 @@ PokedexDataPointerTable:
 	dw GirafarigPokedexEntry
 	dw FarigirafPokedexEntry
 	dw SmearglePokedexEntry
-	dw TentacoolPokedexEntry
-	dw TentacruelPokedexEntry
+	dw SkrelpPokedexEntry
+	dw DragalgePokedexEntry
 	dw KrabbyPokedexEntry
 	dw KinglerPokedexEntry
 	dw StaryuPokedexEntry
@@ -130,8 +130,8 @@ PokedexDataPointerTable:
 	dw MiloticPokedexEntry
 	dw ChinchouPokedexEntry
 	dw LanturnPokedexEntry
-	dw SeelPokedexEntry
-	dw DewgongPokedexEntry
+	dw TurtonatorPokedexEntry
+	dw DuraludonPokedexEntry
 	dw ConttoneePokedexEntry
 	dw WhimsicottPokedexEntry
 	dw EeveePokedexEntry
@@ -158,8 +158,9 @@ PokedexDataPointerTable:
 	dw SkuntankPokedexEntry
 	dw CubchooPokedexEntry
 	dw BearticPokedexEntry
-	dw PonytaPokedexEntry
-	dw RapidashPokedexEntry
+	dw LotadPokedexEntry
+	dw LombrePokedexEntry
+	dw LudicoloPokedexEntry
 	dw DuskullPokedexEntry
 	dw DusclopsPokedexEntry
 	dw DusknoirPokedexEntry

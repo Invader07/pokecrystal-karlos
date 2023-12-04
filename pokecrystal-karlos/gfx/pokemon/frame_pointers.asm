@@ -40,7 +40,7 @@ FramesPointers:
 	dw FlaaffyFrames
 	dw AmpharosFrames
 	dw WooperFrames
-	dw QuagsireFrames
+	dw ClodsireFrames
 	dw GastlyFrames
 	dw HaunterFrames
 	dw GengarFrames
@@ -118,8 +118,8 @@ FramesPointers:
 	dw GirafarigFrames
 	dw FarigirafFrames
 	dw SmeargleFrames
-	dw TentacoolFrames
-	dw TentacruelFrames
+	dw SkrelpFrames
+	dw DragalgeFrames
 	dw KrabbyFrames
 	dw KinglerFrames
 	dw StaryuFrames
@@ -129,8 +129,8 @@ FramesPointers:
 	dw MiloticFrames
 	dw ChinchouFrames
 	dw LanturnFrames
-	dw SeelFrames
-	dw DewgongFrames
+	dw TurtonatorFrames
+	dw DuraludonFrames
 	dw ConttoneeFrames
 	dw WhimsicottFrames
 	dw EeveeFrames
@@ -157,8 +157,9 @@ FramesPointers:
 	dw SkuntankFrames
 	dw CubchooFrames
 	dw BearticFrames
-	dw PonytaFrames
-	dw RapidashFrames
+	dw LotadFrames
+	dw LombreFrames
+	dw LudicoloFrames
 	dw DuskullFrames
 	dw DusclopsFrames
 	dw DusknoirFrames

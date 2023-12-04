@@ -42,7 +42,7 @@ NewPokedexOrder:
 	db FLAAFFY
 	db AMPHAROS
 	db WOOPER
-	db QUAGSIRE
+	db CLODSIRE
 	db GASTLY
 	db HAUNTER
 	db GENGAR
@@ -120,8 +120,8 @@ NewPokedexOrder:
 	db GIRAFARIG
 	db FARIGIRAF
 	db SMEARGLE
-	db TENTACOOL
-	db TENTACRUEL
+	db SKRELP
+	db DRAGALGE
 	db KRABBY
 	db KINGLER
 	db STARYU
@@ -131,8 +131,8 @@ NewPokedexOrder:
 	db MILOTIC
 	db CHINCHOU
 	db LANTURN
-	db SEEL
-	db DEWGONG
+	db TURTONATOR
+	db DURALUDON
 	db COTTONEE
 	db WHIMSICOTT
 	db EEVEE
@@ -159,8 +159,9 @@ NewPokedexOrder:
 	db SKUNTANK
 	db CUBCHOO
 	db BEARTIC
-	db PONYTA
-	db RAPIDASH
+	db LOTAD
+	db LOMBRE
+	db LUDICOLO
 	db DUSKULL
 	db DUSCLOPS
 	db DUSKNOIR

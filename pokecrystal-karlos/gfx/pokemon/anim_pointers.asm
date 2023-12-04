@@ -40,7 +40,7 @@ AnimationPointers:
 	dw FlaaffyAnimation
 	dw AmpharosAnimation
 	dw WooperAnimation
-	dw QuagsireAnimation
+	dw ClodsireAnimation
 	dw GastlyAnimation
 	dw HaunterAnimation
 	dw GengarAnimation
@@ -118,8 +118,8 @@ AnimationPointers:
 	dw GirafarigAnimation
 	dw FarigirafAnimation
 	dw SmeargleAnimation
-	dw TentacoolAnimation
-	dw TentacruelAnimation
+	dw SkrelpAnimation
+	dw DragalgeAnimation
 	dw KrabbyAnimation
 	dw KinglerAnimation
 	dw StaryuAnimation
@@ -129,8 +129,8 @@ AnimationPointers:
 	dw MiloticAnimation
 	dw ChinchouAnimation
 	dw LanturnAnimation
-	dw SeelAnimation
-	dw DewgongAnimation
+	dw TurtonatorAnimation
+	dw DuraludonAnimation
 	dw ConttoneeAnimation
 	dw WhimsicottAnimation
 	dw EeveeAnimation
@@ -157,8 +157,9 @@ AnimationPointers:
 	dw SkuntankAnimation
 	dw CubchooAnimation
 	dw BearticAnimation
-	dw PonytaAnimation
-	dw RapidashAnimation
+	dw LotadAnimation
+	dw LombreAnimation
+	dw LudicoloAnimation
 	dw DuskullAnimation
 	dw DusclopsAnimation
 	dw DusknoirAnimation

@@ -39,7 +39,7 @@ AnimationIdlePointers:
 	dw FlaaffyAnimationIdle
 	dw AmpharosAnimationIdle
 	dw WooperAnimationIdle
-	dw QuagsireAnimationIdle
+	dw ClodsireAnimationIdle
 	dw GastlyAnimationIdle
 	dw HaunterAnimationIdle
 	dw GengarAnimationIdle
@@ -117,8 +117,8 @@ AnimationIdlePointers:
 	dw GirafarigAnimationIdle
 	dw FarigirafAnimationIdle
 	dw SmeargleAnimationIdle
-	dw TentacoolAnimationIdle
-	dw TentacruelAnimationIdle
+	dw SkrelpAnimationIdle
+	dw DragalgeAnimationIdle
 	dw KrabbyAnimationIdle
 	dw KinglerAnimationIdle
 	dw StaryuAnimationIdle
@@ -128,8 +128,8 @@ AnimationIdlePointers:
 	dw MiloticAnimationIdle
 	dw ChinchouAnimationIdle
 	dw LanturnAnimationIdle
-	dw SeelAnimationIdle
-	dw DewgongAnimationIdle
+	dw TurtonatorAnimationIdle
+	dw DuraludonAnimationIdle
 	dw ConttoneeAnimationIdle
 	dw WhimsicottAnimationIdle
 	dw EeveeAnimationIdle
@@ -156,8 +156,9 @@ AnimationIdlePointers:
 	dw SkuntankAnimationIdle
 	dw CubchooAnimationIdle
 	dw BearticAnimationIdle
-	dw PonytaAnimationIdle
-	dw RapidashAnimationIdle
+	dw LotadAnimationIdle
+	dw LombreAnimationIdle
+	dw LudicoloAnimationIdle
 	dw DuskullAnimationIdle
 	dw DusclopsAnimationIdle
 	dw DusknoirAnimationIdle

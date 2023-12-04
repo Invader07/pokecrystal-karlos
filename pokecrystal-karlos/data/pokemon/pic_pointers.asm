@@ -81,8 +81,8 @@ PokemonPicPointers::
 	dba AmpharosBackpic
 	dba WooperFrontpic
 	dba WooperBackpic
-	dba QuagsireFrontpic
-	dba QuagsireBackpic
+	dba ClodsireFrontpic
+	dba ClodsireBackpic
 	dba GastlyFrontpic
 	dba GastlyBackpic
 	dba HaunterFrontpic
@@ -238,10 +238,10 @@ PokemonPicPointers::
 	dba FarigirafBackpic
 	dba SmeargleFrontpic
 	dba SmeargleBackpic
-	dba TentacoolFrontpic
-	dba TentacoolBackpic
-	dba TentacruelFrontpic
-	dba TentacruelBackpic
+	dba SkrelpFrontpic
+	dba SkrelpBackpic
+	dba DragalgeFrontpic
+	dba DragalgeBackpic
 	dba KrabbyFrontpic
 	dba KrabbyBackpic
 	dba KinglerFrontpic
@@ -260,10 +260,10 @@ PokemonPicPointers::
 	dba ChinchouBackpic
 	dba LanturnFrontpic
 	dba LanturnBackpic
-	dba SeelFrontpic
-	dba SeelBackpic
-	dba DewgongFrontpic
-	dba DewgongBackpic
+	dba TurtonatorFrontpic
+	dba TurtonatorBackpic
+	dba DuraludonFrontpic
+	dba DuraludonBackpic
 	dba CottoneeFrontpic
 	dba CottoneeBackpic
 	dba WhimsicottFrontpic
@@ -312,10 +312,12 @@ PokemonPicPointers::
 	dba CubchooBackpic
 	dba BearticFrontpic
 	dba BearticBackpic
-	dba PonytaFrontpic
-	dba PonytaBackpic
-	dba RapidashFrontpic
-	dba RapidashBackpic
+	dba LotadFrontpic
+	dba LotadBackpic
+	dba LombreFrontpic
+	dba LombreBackpic
+	dba LudicoloFrontpic
+	dba LudicoloBackpic
 	dba StunkyFrontpic
 	dba StunkyBackpic
 	dba SkuntankFrontpic

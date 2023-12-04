@@ -42,16 +42,16 @@ FishGroups:
 .Ocean_Old:
 	db  70 percent + 1, MAGIKARP,   10
 	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     TENTACOOL,  10
+	db 100 percent,     SKRELP,  10
 .Ocean_Good:
 	db  35 percent,     MAGIKARP,   20
-	db  70 percent,     TENTACOOL,  20
+	db  70 percent,     SKRELP,  20
 	db  90 percent + 1, CHINCHOU,   20
 	db 100 percent,     time_group 2
 .Ocean_Super:
 	db  40 percent,     CHINCHOU,   40
 	db  70 percent,     time_group 3
-	db  90 percent + 1, TENTACRUEL, 40
+	db  90 percent + 1, DRAGALGE, 40
 	db 100 percent,     LANTURN,    40
 
 .Lake_Old:
@@ -163,16 +163,16 @@ FishGroups:
 .DRATINI_Old:
 	db  70 percent + 1, MAGIKARP,   10
 	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     TENTACOOL,  10
+	db 100 percent,     SKRELP,  10
 .DRATINI_NoSwarm_Good:
 .DRATINI_Good:
 	db  35 percent,     MAGIKARP,   20
-	db  70 percent,     TENTACOOL,  20
-	db  90 percent + 1, TENTACOOL,  20
+	db  70 percent,     SKRELP,  20
+	db  90 percent + 1, SKRELP,  20
 	db 100 percent,     time_group 20
 .DRATINI_NoSwarm_Super:
 .DRATINI_Super:
-	db  40 percent,     TENTACOOL,  40
+	db  40 percent,     SKRELP,  40
 	db  70 percent,     time_group 21
 	db  90 percent + 1, MAGIKARP,   40
 	db 100 percent,     DRATINI,   40
@@ -200,5 +200,5 @@ TimeFishGroups:
 	db DRATINI,    10,  DRATINI,    10 ; 17
 	db HORSEA,     20,  HORSEA,     20 ; 18
 	db HORSEA,     40,  HORSEA,     40 ; 19
-	db TENTACOOL,  20,  TENTACOOL,  20 ; 20
-	db TENTACOOL,  40,  TENTACOOL,  40 ; 21
+	db SKRELP,  20,  SKRELP,  20 ; 20
+	db SKRELP,  40,  SKRELP,  40 ; 21

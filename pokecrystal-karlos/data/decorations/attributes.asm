@@ -58,7 +58,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    UNOWN,           SET_UP_DOLL,       EVENT_DECO_UNOWN_DOLL,              SPRITE_UNOWN
 	decoration DECO_DOLL,    GEODUDE,         SET_UP_DOLL,       EVENT_DECO_GEODUDE_DOLL,            SPRITE_GEODUDE
 	decoration DECO_DOLL,    MACHOP,          SET_UP_DOLL,       EVENT_DECO_MACHOP_DOLL,             SPRITE_MACHOP
-	decoration DECO_DOLL,    TENTACOOL,       SET_UP_DOLL,       EVENT_DECO_TENTACOOL_DOLL,          SPRITE_TENTACOOL
+	decoration DECO_DOLL,    SKRELP,       SET_UP_DOLL,          EVENT_DECO_TENTACOOL_DOLL,          SPRITE_TENTACOOL
 	decoration DECO_PLANT,   GOLD_TROPHY,     SET_UP_DOLL,       EVENT_DECO_GOLD_TROPHY,             SPRITE_GOLD_TROPHY
 	decoration DECO_PLANT,   SILVER_TROPHY,   SET_UP_DOLL,       EVENT_DECO_SILVER_TROPHY,           SPRITE_SILVER_TROPHY
 	assert_table_length NUM_DECOS + NUM_DECO_CATEGORIES + 1

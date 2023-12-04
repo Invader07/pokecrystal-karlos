@@ -58,7 +58,7 @@
 	const FLAAFFY    ; 27
 	const AMPHAROS   ; 28
 	const WOOPER     ; 29
-	const QUAGSIRE   ; 2a
+	const CLODSIRE   ; 2a
 	const GASTLY     ; 2b
 	const HAUNTER    ; 2c
 	const GENGAR     ; 2d
@@ -136,8 +136,8 @@
 	const GIRAFARIG  ; 72
 	const FARIGIRAF  ; 73
 	const SMEARGLE   ; 74
-	const TENTACOOL  ; 75
-	const TENTACRUEL ; 76
+	const SKRELP	   ; 75
+	const DRAGALGE   ; 76
 	const KRABBY     ; 77
 	const KINGLER    ; 78
 	const STARYU     ; 79
@@ -147,8 +147,8 @@
 	const MILOTIC    ; 7d
 	const CHINCHOU   ; 7e
 	const LANTURN    ; 7f
-	const SEEL       ; 80
-	const DEWGONG    ; 81
+	const TURTONATOR ; 80
+	const DURALUDON  ; 81
 	const COTTONEE   ; 82
 	const WHIMSICOTT ; 83
 	const EEVEE      ; 84
@@ -176,8 +176,9 @@ DEF JOHTO_POKEMON EQU const_value
 	const SKUNTANK   ; 99
 	const CUBCHOO    ; 9a
 	const BEARTIC    ; 9b
-	const PONYTA     ; 9c
-	const RAPIDASH   ; 9d
+	const LOTAD      ; 9c
+	const LOMBRE     ; 9d
+	const LUDICOLO   ; 9e
 	const DUSKULL    ; 9e
 	const DUSCLOPS   ; 9f
 	const DUSKNOIR   ; a0
@@ -268,15 +269,15 @@ DEF JOHTO_POKEMON EQU const_value
 	const IRONTHORNS ; f6
 	const REGIDRAGO  ; f7
 	const REGILEKI   ; f8
-	const JIRACHI    ; f9
-	const MANAPHY    ; fa
-	const CELEBI     ; fb
-	const MEW        ; fc
+	const JIRACHI    ; fa
+	const MANAPHY    ; fb
+	const CELEBI     ; fc
+	const MEW        ; fd
 
 
 DEF NUM_POKEMON EQU const_value - 1
 ; Stop at fe
-	const EGG        ; fd
+	const EGG        ; fe
 
 ; Unown forms
 ; indexes for:

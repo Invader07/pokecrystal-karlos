@@ -29,7 +29,7 @@ SpriteMons:
 	db BULBASAUR
 	db GROWLITHE
 	db EKANS
-	db TENTACOOL
+	db SKRELP
 	db MACHOP
 	db LAPRAS
 	db RHYDON
