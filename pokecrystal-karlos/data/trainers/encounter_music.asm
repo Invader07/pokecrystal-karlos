@@ -4,7 +4,7 @@ TrainerEncounterMusic::
 ; entries correspond to trainer classes (see constants/trainer_constants.asm)
 	table_width 1, TrainerEncounterMusic
 	db MUSIC_HIKER_ENCOUNTER       ; none
-	db MUSIC_YOUNGSTER_ENCOUNTER   ; falkner
+	db MUSIC_YOUNGSTER_ENCOUNTER   ; bastian
 	db MUSIC_LASS_ENCOUNTER        ; whitney
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; bugsy
 	db MUSIC_OFFICER_ENCOUNTER     ; morty
@@ -12,7 +12,7 @@ TrainerEncounterMusic::
 	db MUSIC_LASS_ENCOUNTER        ; jasmine
 	db MUSIC_OFFICER_ENCOUNTER     ; chuck
 	db MUSIC_BEAUTY_ENCOUNTER      ; clair
-	db MUSIC_RIVAL_ENCOUNTER       ; rival1
+	db MUSIC_RIVAL_ENCOUNTER       ; rival
 	db MUSIC_HIKER_ENCOUNTER       ; pokemon_prof
 	db MUSIC_HIKER_ENCOUNTER       ; will
 	db MUSIC_HIKER_ENCOUNTER       ; cal
@@ -71,7 +71,6 @@ TrainerEncounterMusic::
 	db MUSIC_HIKER_ENCOUNTER       ; officer
 	db MUSIC_ROCKET_ENCOUNTER      ; gruntf
 	db MUSIC_HIKER_ENCOUNTER       ; mysticalman
+	db MUSIC_RIVAL_ENCOUNTER       ; blaire
+	db MUSIC_RIVAL_ENCOUNTER       ; percy
 	assert_table_length NUM_TRAINER_CLASSES + 1
-	db MUSIC_HIKER_ENCOUNTER       ; unused
-	db MUSIC_HIKER_ENCOUNTER       ; unused
-	db MUSIC_HIKER_ENCOUNTER       ; unused

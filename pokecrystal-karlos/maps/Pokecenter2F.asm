@@ -57,7 +57,7 @@ Script_BattleRoomClosed:
 	end
 
 LinkReceptionistScript_Trade:
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
+	checkevent EVENT_GOT_A_POKEMON_FROM_OAK
 	iffalse Script_TradeCenterClosed
 	opentext
 	writetext Text_TradeReceptionistIntro
@@ -118,7 +118,7 @@ LinkReceptionistScript_Trade:
 	end
 
 LinkReceptionistScript_Battle:
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
+	checkevent EVENT_GOT_A_POKEMON_FROM_OAK
 	iffalse Script_BattleRoomClosed
 	opentext
 	writetext Text_BattleReceptionistIntro

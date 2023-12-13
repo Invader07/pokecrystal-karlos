@@ -3,7 +3,7 @@
 BTTrainerClassGenders:
 ; entries correspond to trainer classes
 	table_width 1, BTTrainerClassGenders
-	db MALE   ; FALKNER
+	db MALE   ; BASTIAN
 	db FEMALE ; WHITNEY
 	db FEMALE ; BUGSY
 	db MALE   ; MORTY
@@ -11,7 +11,7 @@ BTTrainerClassGenders:
 	db FEMALE ; JASMINE
 	db MALE   ; CHUCK
 	db FEMALE ; CLAIR
-	db MALE   ; RIVAL1
+	db MALE 	; RIVAL
 	db MALE   ; POKEMON_PROF
 	db FEMALE ; WILL
 	db MALE   ; CAL
@@ -69,4 +69,8 @@ BTTrainerClassGenders:
 	db MALE   ; BLUE
 	db MALE   ; OFFICER
 	db FEMALE ; GRUNTF
-	assert_table_length NUM_TRAINER_CLASSES - 1 ; exclude MYSTICALMAN
+	db MALE   ; MYSTICALMAN
+	db FEMALE ; BLAIRE
+	db MALE   ; PERCY
+
+	assert_table_length NUM_TRAINER_CLASSES

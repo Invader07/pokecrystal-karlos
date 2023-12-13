@@ -112,9 +112,9 @@ PlayBattleMusic:
 
 	ld de, MUSIC_RIVAL_BATTLE
 	ld a, [wOtherTrainerClass]
-	cp RIVAL1
+	cp PERCY
 	jr z, .done
-	cp RIVAL2
+	cp BLAIRE
 	jr nz, .othertrainer
 
 	ld a, [wOtherTrainerID]

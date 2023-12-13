@@ -6,7 +6,7 @@ ItemDescriptions:
 	dw BrightpowderDesc
 	dw GreatBallDesc
 	dw PokeBallDesc
-	dw TeruSama1Desc
+	dw SealedMapDesc
 	dw BicycleDesc
 	dw MoonStoneDesc
 	dw AntidoteDesc
@@ -25,7 +25,7 @@ ItemDescriptions:
 	dw FireStoneDesc
 	dw ThunderStoneDesc
 	dw WaterStoneDesc
-	dw TeruSama2Desc
+	dw SealedMapDesc
 	dw HPUpDesc
 	dw ProteinDesc
 	dw IronDesc
@@ -45,12 +45,12 @@ ItemDescriptions:
 	dw SuperRepelDesc
 	dw MaxRepelDesc
 	dw DireHitDesc
-	dw TeruSama3Desc
+	dw IDCardDesc
 	dw FreshWaterDesc
 	dw SodaPopDesc
 	dw LemonadeDesc
 	dw XAttackDesc
-	dw TeruSama4Desc
+	dw BastianCoinDesc
 	dw XDefendDesc
 	dw XSpeedDesc
 	dw XSpecialDesc
@@ -279,8 +279,9 @@ PokeBallDesc:
 	db   "An item for catch-"
 	next "ing #MON.@"
 
-TeruSama1Desc:
-	db   "?@"
+SealedMapDesc:
+	db   "A mysterious map "
+	next "made by BASTIAN.@"
 
 BicycleDesc:
 	db   "A collapsible bike"
@@ -354,8 +355,9 @@ WaterStoneDesc:
 	db   "Evolves certain"
 	next "kinds of #MON.@"
 
-TeruSama2Desc:
-	db   "?@"
+IDCardDesc:
+	db   "Your BATTLE CONFE-"
+	next "RENCE I.D. CARD.@"
 
 HPUpDesc:
 	db   "Raises the HP of"
@@ -452,8 +454,9 @@ XAttackDesc:
 	db   "Raises ATTACK."
 	next "(1 BTL)@"
 
-TeruSama4Desc:
-	db   "?@"
+BastianCoinDesc:
+	db   "A shiny, gold coin"
+	next "with a face on it.@"
 
 XDefendDesc:
 	db   "Raises DEFENSE."

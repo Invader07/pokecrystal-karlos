@@ -67,7 +67,7 @@ NewGame:
 	call OakSpeech
 	call InitializeWorld
 
-	ld a, LANDMARK_NEW_BARK_TOWN
+	ld a, LANDMARK_HERALD_COVE
 	ld [wPrevLandmark], a
 
 	ld a, SPAWN_HOME
@@ -279,9 +279,6 @@ InitializeMagikarpHouse:
 	db "RALPH@"
 
 InitializeNPCNames:
-	ld hl, .Rival
-	ld de, wRivalName
-	call .Copy
 
 	ld hl, .Mom
 	ld de, wMomsName
@@ -291,21 +288,15 @@ InitializeNPCNames:
 	ld de, wRedsName
 	call .Copy
 
-	ld hl, .Green
-	ld de, wGreensName
-
 .Copy:
 	ld bc, NAME_LENGTH
 	call CopyBytes
 	ret
 
-.Rival:  db "???@"
 .Red:    db "RED@"
-.Green:  db "GREEN@"
 .Mom:    db "MOM@"
 
 InitializeWorld:
-	call ShrinkPlayer
 	farcall SpawnPlayer
 	farcall _InitializeStartDay
 	ret
@@ -633,10 +624,7 @@ Continue_DisplayGameTime:
 	jp PrintNum
 
 OakSpeech:
-	farcall InitClock
-	call RotateFourPalettesLeft
 	call ClearTilemap
-
 	ld de, MUSIC_ROUTE_30
 	call PlayMusic
 
@@ -657,7 +645,7 @@ OakSpeech:
 	call RotateThreePalettesRight
 	call ClearTilemap
 
-	ld a, WOOPER
+	ld a, WHIMSICOTT
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
 	call GetBaseData
@@ -708,6 +696,10 @@ OakSpeech:
 	call NamePlayer
 	ld hl, OakText7
 	call PrintText
+
+	farcall InitClock
+	call RotateFourPalettesLeft
+	call ClearTilemap
 	ret
 
 OakText1:
@@ -717,7 +709,7 @@ OakText1:
 OakText2:
 	text_far _OakText2
 	text_asm
-	ld a, WOOPER
+	ld a, WHIMSICOTT
 	call PlayMonCry
 	call WaitSFX
 	ld hl, OakText3

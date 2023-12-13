@@ -2,7 +2,7 @@ TrainerClassAttributes:
 ; entries correspond to trainer classes (see constants/trainer_constants.asm)
 	table_width NUM_TRAINER_ATTRIBUTES, TrainerClassAttributes
 
-; Falkner
+; Bastian
 	db NO_ITEM, NO_ITEM ; items
 	db 25 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
@@ -50,7 +50,7 @@ TrainerClassAttributes:
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
-; Rival1
+; Rival
 	db NO_ITEM, NO_ITEM ; items
 	db 15 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
@@ -131,7 +131,7 @@ TrainerClassAttributes:
 ; Youngster
 	db NO_ITEM, NO_ITEM ; items
 	db 4 ; base reward
-	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw AI_BASIC | AI_SETUP
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
 ; Schoolboy
@@ -404,4 +404,15 @@ TrainerClassAttributes:
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
+; Blaire
+	db NO_ITEM, NO_ITEM ; items
+	db 15 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Percy
+	db NO_ITEM, NO_ITEM ; items
+	db 15 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
 	assert_table_length NUM_TRAINER_CLASSES

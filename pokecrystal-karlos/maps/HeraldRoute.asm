@@ -3,6 +3,7 @@
 	const HERALD_ROUTE_YOUNGSTER2
 	const HERALD_ROUTE_LASS1
 	const HERALD_ROUTE_COOLTRAINERF1
+	const HERALD_ROUTE_BLOCKING_LASS
 
 HeraldRoute_MapScripts:
 	def_scene_scripts
@@ -53,6 +54,9 @@ TrainerCoolTrainerFStacy:
 		closetext
 		end
 
+BlockingLassScript:
+		jumptextfaceplayer BlockingLassText
+
 HeraldRouteSignScript:
 	opentext
 	writetext HeraldRouteSignText
@@ -100,10 +104,12 @@ YoungsterJamesAfterText:
 	text "I just got beat by"
 	line "some girl. She was"
 	cont "really tough."
+	done
 
 LassAlexisSeenText:
-	text "There's so many "
-	line "cute #MON!"
+	text "I found all of my"
+	line "#MON! Yours"
+	cont "look really tough."
 
 	para "Here, let me show"
 	line "you mine!"
@@ -111,7 +117,7 @@ LassAlexisSeenText:
 
 LassAlexisBeatenText:
 	text "I really like"
-	line "yours too!"
+	line "your #MON!"
 	done
 
 LassAlexisAfterText:
@@ -124,6 +130,7 @@ LassAlexisAfterText:
 
 	para "I think one comes"
 	line "out at night too!"
+	done
 
 CoolTrainerFStacySeenText:
 	text "Oh good. I could"
@@ -132,10 +139,21 @@ CoolTrainerFStacySeenText:
 
 CoolTrainerFStacyBeatenText:
 	text "What?!"
+	done
 
 CoolTrainerFStacyAfterText:
 	text "You're good. Are"
 	line "you signing up?"
+	done
+
+BlockingLassText:
+	text "Sorry! I lost my"
+	line "# BALLS! I can't"
+	cont "find them at all!"
+
+	para "I'll battle you"
+	line "when I find them!"
+	done
 
 HeraldRouteSignText:
 	text "Sign!"
@@ -156,5 +174,6 @@ HeraldRoute_MapEvents:
 	def_object_events
 	object_event 48,  9, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerYoungsterKevin, -1
 	object_event 26, 12, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerYoungsterJames, -1
-	object_event  8, 12, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerLassAlexis, -1
+	object_event  8, 11, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerLassAlexis, -1
 	object_event 19,  5, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCoolTrainerFStacy, -1
+	object_event  9, 16, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BlockingLassScript, EVENT_LASS_AT_HERALD_ROUTE

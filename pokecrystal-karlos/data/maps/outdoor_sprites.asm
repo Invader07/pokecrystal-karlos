@@ -44,13 +44,13 @@ IndigoGroupSprites:
 
 HeraldCoveGroupSprites:
 	; HeraldCove, HeraldRoute
-		db SPRITE_TEACHER
+		db SPRITE_COOLTRAINER_F
 		db SPRITE_LASS
 		db SPRITE_FISHER
-		db SPRITE_COOLTRAINER_M
+		db SPRITE_OAK
 		db SPRITE_YOUNGSTER
 		db SPRITE_GRAMPS
-		db SPRITE_BUG_CATCHER
+		db SPRITE_SAILOR
 		db SPRITE_GOOD_RIVAL
 		db SPRITE_BAD_RIVAL
 		; 9 of 9 walking sprites

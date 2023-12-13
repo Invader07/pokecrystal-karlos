@@ -215,6 +215,7 @@ ReplaceTimeOfDayPals:
 .BrightnessLevels:
 ; actual palettes used when time is
 ; EVE_F, NITE_F, DAY_F, MORN_F
+	dc EVE_F, 		 NITE_F,     DAY_F,			 MORN_F			; PALLETE_AUTO    
 	dc DAY_F,      DAY_F,      DAY_F,      DAY_F      ; PALETTE_DAY
 	dc NITE_F,     NITE_F,     NITE_F,     NITE_F     ; PALETTE_NITE
 	dc MORN_F,     MORN_F,     MORN_F,     MORN_F     ; PALETTE_MORN

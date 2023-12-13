@@ -27,8 +27,8 @@ DEF CHRIS EQU __trainer_class__
 	const PHONECONTACT_BUENA
 DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
-	trainerclass FALKNER ; 1
-	const FALKNER1
+	trainerclass BASTIAN ; 1
+	const BASTIAN1
 
 	trainerclass WHITNEY ; 2
 	const WHITNEY1
@@ -52,21 +52,6 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const CLAIR1
 
 	trainerclass RIVAL1 ; 9
-	const RIVAL1_1_CHIKORITA
-	const RIVAL1_1_CYNDAQUIL
-	const RIVAL1_1_TOTODILE
-	const RIVAL1_2_CHIKORITA
-	const RIVAL1_2_CYNDAQUIL
-	const RIVAL1_2_TOTODILE
-	const RIVAL1_3_CHIKORITA
-	const RIVAL1_3_CYNDAQUIL
-	const RIVAL1_3_TOTODILE
-	const RIVAL1_4_CHIKORITA
-	const RIVAL1_4_CYNDAQUIL
-	const RIVAL1_4_TOTODILE
-	const RIVAL1_5_CHIKORITA
-	const RIVAL1_5_CYNDAQUIL
-	const RIVAL1_5_TOTODILE
 
 	trainerclass POKEMON_PROF ; a
 
@@ -115,12 +100,12 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const TEST3
 	const TEST4
 	const TEST5
+	const KEVIN
+	const JAMES
+	const ALEX
 	const JOEY1
 	const JOEY2
 	const JOEY3
-	const WARREN
-	const JAMES
-	const KEVIN
 	const JASON
 	const JOEY4
 	const JOEY5
@@ -174,7 +159,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass LASS ; 19
 	const ALEXIS
-	const BRIDGET
+	const CANDICE
 	const ALICE
 	const KRISE
 	const CONNIE1
@@ -419,7 +404,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const BRIANA
 
 	trainerclass SAILOR ; 28
-	const EUGENE
+	const RONALD
 	const HUEY1
 	const TERRELL
 	const KENT
@@ -633,7 +618,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const DORIS
 
 	trainerclass BOARDER ; 3a
-	const RONALD
+	const RONALDO
 	const BRAD
 	const DOUGLAS
 
@@ -649,7 +634,7 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 	const COLIN
 	const DEREK2 ; unused
 	const DEREK3 ; unused
-	const ALEX
+	const ALEXX
 	const REX
 	const ALLAN
 
@@ -700,6 +685,16 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 	trainerclass MYSTICALMAN ; 43
 	const EUSINE
+
+	trainerclass BLAIRE ; 44
+	const BLAIRE_1_EKANS
+	const BLAIRE_1_HOUNDOUR
+	const BLAIRE_1_BALTOY
+
+	trainerclass PERCY ; 45
+	const PERCY_1_EKANS
+	const PERCY_1_HOUNDOUR
+	const PERCY_1_BALTOY
 
 	DEF KRIS EQU __trainer_class__
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1

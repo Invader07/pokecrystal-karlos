@@ -67,9 +67,9 @@ ENDM
 	newgroup HERALD_COVE                                          ;  5
 	map_const HERALD_COVE,																 20, 12 ;  1
 	map_const HERALD_ROUTE,																 30, 12 ;  2
-	map_const HERALD_LAB,							       							  5,  7 ;  3
+	map_const HERALD_LAB,							       							  7,  5 ;  3
 	map_const HERALD_POKECENTER,				 										7,  4 ;  4
-	map_const HERALD_GYM,							       							  5,  9 ;  5
+	map_const HERALD_GYM,							       							  5,  4 ;  5
 	map_const HERALD_HOUSE,														  		5,  4 ;  6
 	map_const HERALD_PORT,														   		8,  6 ;  7
 	map_const PLAYERS_HOUSE_1F,                             5,  4 ;  8
